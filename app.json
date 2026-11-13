@@ -1,0 +1,30 @@
+{
+  "expo": {
+    "name": "GlyphGrid",
+    "slug": "glyphgrid",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./icon.png",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "image": "./splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0B1020"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.puzzlebloom.glyphgrid"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./adaptive-icon.png",
+        "backgroundColor": "#0B1020"
+      },
+      "package": "com.puzzlebloom.glyphgrid"
+    },
+    "web": {
+      "favicon": "./favicon.png"
+    }
+  }
+}
